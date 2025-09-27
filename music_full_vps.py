@@ -229,7 +229,7 @@ class MusicUserbot:
         # بعد بدء الجلسة نبدأ مراقبة قائمة الانتظار لتشغيلها إن كانت متوفرة
         asyncio.create_task(self.queue_worker())
 
-        # نستمع لرسائل "شغل" أيضاً من داخل الحساب نفسه (لو احتجنا)
+        # نستمع لرسائل "شغيل" أيضاً من داخل الحساب نفسه (لو احتجنا)
         @self.client.on(events.NewMessage(pattern=r"^تشغيل (.+)"))
         async def local_play_handler(event):
             query = event.pattern_match.group(1).strip()
