@@ -1,4 +1,4 @@
 telethon==1.30.0
 pytgcalls==2.0.0
-yt-dlp==2025.09.01
+yt-dlp
 pyTelegramBotAPI==4.11.0
