@@ -1,7 +1,4 @@
-telethon
-pytgcalls
-yt-dlp
-pyrogram  # pyrogram مطلوب كإحدى تبعيات pytgcalls
-pyyaml    # pyyaml مطلوب كإحدى تبعيات pytgcalls
-pytube    # غالباً لا تحتاجها إذا كنت تستخدم yt-dlp لكن بعض أدوات yt-dlp قد تحتاجها
-pytz
+telethon==1.30.0
+pytgcalls==2.0.0
+yt-dlp==2025.09.01
+pyTelegramBotAPI==4.11.0
